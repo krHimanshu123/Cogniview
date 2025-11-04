@@ -76,6 +76,7 @@ export default function FloatingChatButton() {
               {/* Close Button */}
               <button
                 onClick={() => setIsOpen(false)}
+                
                 className="absolute -top-2 -right-2 w-6 h-6 bg-white rounded-full shadow-lg flex items-center justify-center text-gray-600 hover:text-gray-800 transition-colors z-[10000] border border-gray-200"
                 style={{ zIndex: 10000 }}
               >
