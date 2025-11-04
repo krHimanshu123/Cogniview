@@ -62,6 +62,7 @@ const Agent = ({
     };
 
     const onError = (error: Error) => {
+      
       console.error("VAPI Error:", error);
       
       // Handle specific VAPI errors gracefully
