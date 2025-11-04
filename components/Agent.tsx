@@ -40,6 +40,7 @@ const Agent = ({
     };
 
     const onCallEnd = () => {
+      
       setCallStatus(CallStatus.FINISHED);
     };
 
