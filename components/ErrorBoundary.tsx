@@ -72,6 +72,7 @@ class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoundarySta
               <Button
                 variant="outline"
                 onClick={() => window.location.reload()}
+                
                 className="w-full"
               >
                 Reload Page
