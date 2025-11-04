@@ -6,6 +6,7 @@ interface TechIconProps {
 }
 
 const DisplayTechIcons = async ({ techStack }: TechIconProps) => {
+  
   const techIcons = await getTechLogos(techStack);
 
   return (
