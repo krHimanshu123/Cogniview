@@ -52,6 +52,7 @@ const FormField = <T extends FieldValues>({
                 background: 'white',
                 outline: 'none'
               }}
+              
               onFocus={(e) => {
                 e.target.style.borderColor = 'var(--primary-500)';
                 e.target.style.boxShadow = '0 0 0 3px rgba(59, 130, 246, 0.1)';
