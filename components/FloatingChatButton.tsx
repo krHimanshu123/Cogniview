@@ -27,6 +27,7 @@ export default function FloatingChatButton() {
           right: '24px',
           zIndex: 9999,
           width: '64px',
+          
           height: '64px',
           background: 'linear-gradient(135deg, #3b82f6, #8b5cf6)',
           border: 'none',
